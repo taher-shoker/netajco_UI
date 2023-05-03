@@ -1,0 +1,946 @@
+p {
+  color: #363636;
+}
+
+.fouzan-who-we-are {
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #ffffff;
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.93px;
+  line-height: 16px;
+  text-align: center;
+  opacity: 0.8;
+}
+.slider-text h1 {
+  background-image: url("../images/slide-t-icon.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 20px;
+  padding-left: 35px;
+}
+.slider-text h1 {
+  color: #ffffff;
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+}
+.ftco-navbar-light.scrolled .nav-link {
+  color: #fff !important;
+}
+.fouzan-about-us p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  color: #5f5f5f;
+  font-size: 16px;
+  line-height: 28px;
+  width: 500px;
+}
+.fouzan-media p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  color: #5f5f5f;
+  font-size: 16px;
+  line-height: 28px;
+}
+.fouzan-about-us h5 {
+  font-family: "Savoye LET", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  line-height: 30px;
+}
+.fouzan-about-us h4 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.fouzan-construction-in-nums h2 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  width: 435px;
+  color: #000000;
+  font-size: 40px;
+  line-height: 48px;
+}
+.fouzan-our-projects,
+.fouzan-our-vission,
+.fouzan-our-mng h2 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+.fouzan-our-projects_1 h2 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 48px;
+}
+.fouzan-projects h2 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+}
+.ftco-footer h2 {
+  font-family: "zonapro-bolduploaded_file", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.fouzan-what-we-deliver h3,
+.missions h3 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  color: #292929;
+  font-size: 22px;
+  line-height: 26px;
+}
+.fouzan-what-we-deliver h2,
+.fouzan-who-we-are,
+h2 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 40px;
+  line-height: 48px;
+}
+.our-partners h1 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  color: #1a1919;
+  font-size: 40px;
+  line-height: 48px;
+}
+.our-partners h4 {
+  font-family: "futuramedium", Helvetica, Arial, sans-serif;
+  color: #292929;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/*.see-more{*/
+/*    position: absolute;*/
+/*}*/
+#core-values h3 {
+  color: #fff;
+}
+.fouzan-what-we-deliver img {
+  margin-bottom: 0.5rem;
+}
+.fouzan-our-vission,
+.fouzan-our-mng p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0.01pt;
+}
+.fouzan-our-mng p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0.01pt;
+  width: 630px;
+}
+.fouzan-our-vission p,
+.omp {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  width: 630px;
+}
+.missions p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+}
+#core-values p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+}
+#career p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+}
+#career label {
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bord-of-dir p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  width: 960px;
+}
+.bord-of-dir h4 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 22px;
+  line-height: 39px;
+}
+
+.bord-of-dir h5 {
+  font-family: "futura_bk_btbook", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #000000;
+  font-size: 17px;
+}
+.fouzan-who-we-are p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  color: #5f5f5f;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  max-width: 476px;
+}
+.fouzan-construction-in-nums p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  width: 450px;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+}
+.fouzan-construction-in-nums h6 {
+  font-family: "zonapro-bolduploaded_file", Helvetica, Arial, sans-serif;
+  opacity: 0.5;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+.fouzan-construction-in-nums h1 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 2.29px;
+  line-height: 39px;
+  margin-top: 15px;
+}
+
+.num-box {
+  width: 75px;
+  display: flex;
+  align-items: start;
+}
+
+.fouzan-what-we-deliver {
+  background-image: url("../images/what-we-bg-icon.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* background-position: top 50px right; */
+}
+.my-arrow {
+  background-image: url("../images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+.ftco-footer-social li a {
+  background: transparent;
+  width: 40px;
+}
+
+.my-copyright {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-transform: none;
+}
+.my-copyright a {
+  color: #ebc03f;
+}
+.ftco-footer p {
+  color: #adadad !important;
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: #fff;
+}
+.ftco-footer-social li {
+  margin: 0;
+}
+
+.fouzan-what-we-deliver p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  color: #78757b;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 439px;
+}
+.fouzan-our-projects p {
+  line-height: 20px;
+}
+.fouzan-our-projects_1 p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+
+  opacity: 0.8;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  width: 742px;
+}
+.fouzan-media p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.fm-p-w {
+  width: 100%;
+  max-width: 850px;
+}
+
+.fouzan-our-projects_1 h4 {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.fouzan-media h4 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.fouzan-projects h4 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  color: #3b3b3b;
+
+  font-size: 16px;
+}
+.op-box {
+  height: 70px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 20px;
+}
+.we-box {
+  width: auto;
+  height: 60px;
+  align-content: baseline;
+}
+.pro-content h2 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  margin-bottom: 1.5rem;
+  font-size: 36px;
+}
+.pro-content h5,
+.pro-content h6 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+.cons-awards h3 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+.cons-awards h5 {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+.pro-content a {
+  font-family: "Futura", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.pro-content h6 {
+  margin-bottom: 25px;
+}
+.pro-content p,
+.cons-awards p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  margin-bottom: 1.5rem;
+  color: #78757b;
+  font-size: 16px;
+  line-height: 24px;
+}
+.cons-awards p {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  margin-bottom: 1.5rem;
+  color: #78757b;
+  font-size: 16px;
+  line-height: 24px;
+  width: 750px;
+}
+.pro-content h4 {
+  color: #e26d6d;
+}
+
+.ftco-navbar-light.scrolled {
+  background: rgba(0, 0, 0, 0.33) !important;
+}
+/*
+.px-4-5-l{
+    padding-right: 3.5rem;
+    padding-left: 4.5rem;
+}
+.px-4-5-r{
+    padding-right: 6.5rem;
+    padding-left: 5rem;
+}
+ */
+
+@media (min-width: 576px) {
+  .px-4-5-l {
+    padding-right: 2.5rem;
+    padding-left: 4.5rem;
+  }
+  .px-4-5-r {
+    padding-right: 6.5rem;
+    padding-left: 5rem;
+  }
+}
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.my-py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-5-5 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.py-8 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.py-16 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+.fouzan-our-vission {
+  background-image: url("../images/about/10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fouzan-our-projects_1 {
+  background-image: url("../images/home/projects_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.map_bg {
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fouzan-our-mng {
+  background-image: url("../images/about/Picture73.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vission-con,
+.mission-con {
+  max-width: 750px;
+}
+.cons-award-w {
+  max-width: 1220px;
+}
+
+.career {
+  max-width: 920px;
+}
+.award-framre {
+  width: 440px;
+  height: 320px;
+}
+.my-frame {
+  width: 100%;
+  max-width: 520px;
+
+  height: auto;
+  /*max-width: 440px;*/
+}
+.form-control {
+  border-radius: 0;
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+#our-projects .nav-item {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+#our-projects .nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+#our-projects .nav-item {
+  text-align: left;
+}
+#our-projects .nav-tabs {
+  /*display:none;*/
+}
+#our-projects .nav-tabs {
+  border-bottom: 0;
+}
+
+@media (min-width: 168px) and (max-device-width: 480px) {
+  #our-projects .nav-tabs {
+    display: flex;
+  }
+  .fouzan-our-projects_1 p {
+    width: 100%;
+  }
+  .fouzan-construction-in-nums h2,
+  .fouzan-construction-in-nums p {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .fouzan-about-us p {
+    width: 100%;
+  }
+  .fouzan-our-vission p,
+  .omp {
+    width: 100%;
+  }
+  .fouzan-our-mng p {
+    width: 100%;
+  }
+  .bord-of-dir h5 {
+    text-align: center;
+  }
+  .cons-awards p {
+    width: 100%;
+  }
+  .bord-of-dir p {
+    width: 100%;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card .card-header {
+    display: none;
+  }
+  #our-partners > .container {
+    padding-left: 30px;
+  }
+
+  .card .collapse {
+    display: block;
+  }
+}
+
+#our-partners .nav-item {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+#our-partners .nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+#our-partners .nav-item {
+  text-align: left;
+}
+#our-partners .nav-tabs {
+  display: none;
+}
+#our-partners .nav-tabs {
+  border-bottom: 0;
+}
+#our-projects .nav-tabs .nav-link.active p {
+  color: #ebc03f;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+@media (min-width: 168px) {
+  #our-partners .nav-tabs {
+    display: flex;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card .card-header {
+    display: none;
+  }
+
+  .card .collapse {
+    display: block;
+  }
+}
+
+#fouzan-media .nav-item {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+#fouzan-media .nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+#fouzan-media .nav-item {
+  text-align: left;
+}
+#fouzan-media .nav-tabs {
+  display: none;
+}
+#fouzan-media .nav-tabs {
+  border-bottom: 0;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background-color: transparent;
+}
+.feature-news h6 {
+  color: #ff2960;
+  font-weight: bold;
+  font-family: "zonapro-bolduploaded_file", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.feature-news h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.feature-news p {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.feature-news img {
+  border-radius: 10px;
+}
+.feature-news h5 {
+  color: #a8a8a8;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 4.5rem;
+}
+.news-date {
+  padding: 0 10px;
+  margin-top: 0;
+  background-color: #f1525c;
+  border-radius: 5px;
+}
+.news h5 {
+  margin: 0;
+}
+.news h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.news p {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.news img {
+  border-radius: 10px;
+}
+
+@media (min-width: 168px) {
+  #fouzan-media .nav-tabs {
+    display: flex;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card .card-header {
+    display: none;
+  }
+
+  .card .collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 167px) {
+  .tab-content > .tab-pane {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+  color: #fff !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+  color: #000;
+  padding: 0.7rem 30px;
+  background: #fff;
+  margin-top: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 4px;
+  opacity: 1;
+}
+.ftco-navbar-light.scrolled .nav-item.cta > a {
+  color: #000 !important;
+  background: #fff;
+  border: none !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin-top: 5px !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.btn.btn-primary {
+  border: 1px solid #ebc03f !important;
+  color: #fff !important;
+  background: #ebc03f;
+}
+
+#contact-us h4 {
+  font-family: "zonapro-bolduploaded_file", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+#contact-us h2 {
+  font-family: "futura_hv_btheavy", Helvetica, Arial, sans-serif;
+  font-size: 2.3rem;
+}
+
+#core-values h3 {
+  font-family: "futura_bk_btbook", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+  border: 1px solid #fff;
+}
+
+.ftco-navbar-light.scrolled .navbar-toggler {
+  color: #fff !important;
+}
+
+.ftco-navbar-light.scrolled {
+  background: rgba(0, 0, 0, 0.94) !important;
+}
+
+.fouzan-projects h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #adb5bd;
+}
+
+.intl-tel-input {
+  display: table-cell;
+}
+
+.module .collapse,
+.module .collapsing {
+  height: 3.5rem; /* [NUM_OF_LINES] x [LINE_HEIGHT] */
+}
+
+.module .collapse {
+  position: relative; /* For ...'s content absolute positioning */
+  display: block;
+  overflow: hidden;
+}
+
+/*.module .collapse:before {*/
+/*    content: '123';*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+
+.module .collapse.show {
+  height: auto; /* You need to reset the height when not collapsed */
+}
+
+.module .collapse.show:before {
+  display: none; /* Of course you don't want to display ... */
+}
+
+.module a.collapsed:after {
+  content: "+ Show More";
+}
+
+.module a:not(.collapsed):after {
+  content: "- Show Less";
+}
+
+.input-container {
+  /*margin: 3em auto;*/
+  border: 1px solid #ced4da;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-info {
+  font-size: 0.9em;
+}
+
+.browse-btn {
+  background-image: url("../images/box-out.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  /*background: #03A595;*/
+  color: #fff;
+  min-width: 50px;
+  min-height: 60px;
+  padding: 10px;
+  border: none;
+  /*border-top-left-radius: 5px;*/
+  /*border-bottom-left-radius: 5px;*/
+}
+
+@media (max-width: 300px) {
+  button {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+  }
+
+  .file-info {
+    display: block;
+    margin: 10px 5px;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 100px;
+  width: 45%;
+  color: #fff;
+  font-size: 24px;
+  line-height: 100px; /* centering text just for view */
+  text-align: center;
+  background-color: grey;
+  margin: 5px;
+  border: 1px solid lightgrey;
+  display: none;
+}
+#loadMore {
+  width: 200px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: blue;
+  transition: 0.3s;
+}
+#loadMore:hover {
+  color: blue;
+  background-color: #fff;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #3f3f3f;
+}
+/*.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {*/
+/*    color: #C04E4E; }*/
+.navbar-dark .navbar-nav .nav-link-2:hover,
+.navbar-dark .navbar-nav .nav-link-2:focus {
+  color: #c04e4e;
+}
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+  color: #fff !important;
+}
+
+#our-projects .nav-tabs .nav-link.active h4 {
+  color: #ebc03f;
+}
+#our-projects .nav-tabs .nav-link:hover h4 {
+  color: #ebc03f;
+}
+
+#our-partners .nav-tabs .nav-link.active h4 {
+  color: #ebc03f;
+}
+#our-partners .nav-tabs .nav-link:hover h4 {
+  color: #ebc03f;
+}
+#fouzan-media .nav-tabs .nav-link.active h4 {
+  color: #ebc03f;
+}
+#fouzan-media .nav-tabs .nav-link:hover h4 {
+  color: #ebc03f;
+}
+.fouzan-our-projects_1 a:hover h4 {
+  color: #ebc03f !important;
+}
+.svg path {
+  fill: #000 !important;
+}
+
+.pro-row {
+  max-width: 992px;
+  margin: auto;
+}
+
+.see-more-point {
+  cursor: pointer;
+}
