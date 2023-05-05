@@ -46,7 +46,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Cairo", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -67,16 +67,16 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: -apple-system, BlinkMacSystemFont, "Cairo", "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: right;
+  direction: rtl;
   background-color: #fff;
-  direction: ltr;
 }
 
 [tabindex="-1"]:focus {
@@ -467,7 +467,7 @@ mark,
 }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-right: 0;
   list-style: none;
 }
 
@@ -4543,7 +4543,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-left: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -8136,7 +8136,7 @@ button.bg-dark:focus {
 
 @media (min-width: 768px) {
   .float-md-left {
-    float: left !important;
+    float: right !important;
   }
   .float-md-right {
     float: right !important;
@@ -8422,7 +8422,7 @@ button.bg-dark:focus {
 
 .ml-3,
 .mx-3 {
-  margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .m-4 {
@@ -8566,7 +8566,7 @@ button.bg-dark:focus {
 
 .pl-3,
 .px-3 {
-  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .p-4 {
@@ -8758,7 +8758,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @media (min-width: 576px) {
@@ -9409,7 +9409,7 @@ button.bg-dark:focus {
   }
   .ml-md-n4,
   .mx-md-n4 {
-    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
   }
   .m-md-n5 {
     margin: -3rem !important;
@@ -10458,7 +10458,7 @@ a.text-dark:focus {
 }
 
 body {
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Cairo", "Nunito Sans", Arial, sans-serif;
   background: #fff;
   font-size: 17px;
   line-height: 1.8;
@@ -10647,7 +10647,7 @@ h5,
   border: none;
   color: rgba(255, 255, 255, 0.5) !important;
   cursor: pointer;
-  padding-right: 0;
+  padding-left: 0;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -10736,7 +10736,7 @@ h5,
   transition: 0.3s all ease-out;
 }
 .ftco-navbar-light.scrolled .navbar-brand {
-  /* color: #000000; */
+  color: #000000;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 24px;
@@ -10833,7 +10833,7 @@ h5,
   color: #fff;
 }
 .slider-text .icon-video span.watch {
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Cairo", "Nunito Sans", Arial, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -11043,7 +11043,7 @@ h5,
   font-size: 20px;
 }
 .ftco-about .icon-video span.watch {
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Cairo", "Nunito Sans", Arial, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -11301,7 +11301,8 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  font-family: "zonapro-bolduploaded_file", Helvetica, Arial, sans-serif;
+  font-family: "Cairo", "zonapro-bolduploaded_file", Helvetica, Arial,
+    sans-serif;
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
@@ -11323,16 +11324,11 @@ textarea.form-control {
   letter-spacing: 0.1em;
 }
 .ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
   color: #fff;
   margin-bottom: 40px;
-  /*font-weight: normal;*/
-  /*color: #fff;*/
-  /*margin-bottom: 40px;*/
-  /*font-size: 22px;*/
-  /*font-weight: 600; */
-}
-.ftco-footer .ftco-footer-widget h2:hover {
-  color: #ebc03f;
+  font-size: 22px;
+  font-weight: 600;
 }
 .ftco-footer .ftco-footer-widget h2 span {
   color: #ebc03f;

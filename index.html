@@ -54,39 +54,56 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="ion-ios-menu"></span> Menu
+          <span class="ion-ios-menu" lng-tag="menu"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav nav ml-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link"><span>Home</span></a>
+              <a href="index.html" class="nav-link"
+                ><span lng-tag="home"></span
+              ></a>
             </li>
             <li class="nav-item">
-              <a href="about-us.html" class="nav-link"><span>About Us</span></a>
+              <a href="about-us.html" class="nav-link"
+                ><span lng-tag="about_us"></span
+              ></a>
             </li>
 
             <li class="nav-item">
               <a href="our-projects.html" class="nav-link"
-                ><span>Our Projects</span></a
-              >
+                ><span lng-tag="our_projects"></span
+              ></a>
             </li>
 
             <li class="nav-item">
-              <a href="services.html" class="nav-link"><span>Services</span></a>
+              <a href="services.html" class="nav-link"
+                ><span lng-tag="services"></span
+              ></a>
             </li>
             <li class="nav-item">
-              <a href="careers.html" class="nav-link"><span>Careers</span></a>
+              <a href="careers.html" class="nav-link"
+                ><span lng-tag="careers"></span
+              ></a>
             </li>
             <li class="nav-item">
-              <a href="media.html" class="nav-link"><span>Media</span></a>
+              <a href="media.html" class="nav-link"
+                ><span lng-tag="media"></span
+              ></a>
             </li>
             <li class="nav-item cta">
-              <a href="contact-us.html" class="nav-link">Contact Us</a>
+              <a
+                href="contact-us.html"
+                class="nav-link"
+                lng-tag="contact_us"
+              ></a>
             </li>
             <li class="nav-item">
-              <a href="index.php?lang=1" class="nav-link"
-                ><span style="font-family: 'Cairo'">عربى</span></a
+              <a href="#" class="nav-link"
+                ><span id="arTranslator" style="font-family: 'Cairo'"
+                  >عربى</span
+                >
+                <span id="enTranslator">ENG</span></a
               >
             </li>
           </ul>
@@ -109,11 +126,10 @@
             data-scrollax=" properties: { translateY: '70%' }"
           >
             <h1
+              lng-tag="banner_txt"
               class="mb-4"
               data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-            >
-              <strong>We</strong> <br />Have A Vision To Build <br />The Future
-            </h1>
+            ></h1>
           </div>
         </div>
       </div>
@@ -192,7 +208,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 ftco-animat pr-5">
+              <div class="col-md-6 ftco-animat">
                 <div class="we-box">
                   <img src="images/home/view.svg" alt="" />
                 </div>
@@ -797,30 +813,33 @@
         <div class="row">
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <a href="index.html"><h2 class="ftco-heading-2">Home Page</h2></a>
+              <a href="index.html"
+                ><h2 class="ftco-heading-2" lng-tag="home"></h2
+              ></a>
               <a href="about-us.html"
-                ><h2 class="ftco-heading-2">About US</h2></a
+                ><h2 class="ftco-heading-2" lng-tag="about_us">About US</h2></a
               >
-              <a href="media.html"><h2 class="ftco-heading-2">News</h2></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
               <a href="our-projects.html"
-                ><h2 class="ftco-heading-2">Our Projects</h2></a
-              >
-              <a href="careers.html"><h2 class="ftco-heading-2">Careers</h2></a>
+                ><h2 class="ftco-heading-2" lng-tag="our_projects"></h2
+              ></a>
+              <a href="careers.html"
+                ><h2 class="ftco-heading-2" lng-tag="careers"></h2
+              ></a>
               <a href="services.html"
-                ><h2 class="ftco-heading-2">Services</h2></a
-              >
+                ><h2 class="ftco-heading-2" lng-tag="services"></h2
+              ></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
-              <a href="#"><h2 class="ftco-heading-2">Media</h2></a>
+              <a href="#"><h2 class="ftco-heading-2" lng-tag="media"></h2></a>
               <a href="contact-us.html"
-                ><h2 class="ftco-heading-2">
-                  Contact US <i class="ion-ios-arrow-forward ml-3"></i></h2
+                ><h2 class="ftco-heading-2" lng-tag="contact_us">
+                  <i class="ion-ios-arrow-forward ml-3"></i></h2
               ></a>
 
               <ul
@@ -998,7 +1017,7 @@
     <script src="js/scrollax.min.js"></script>
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
     <!-- <script src="js/google-map.js"></script> -->
-
+    <script src="js/translate.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -33,7 +33,7 @@ AOS.init({
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
-		}, 1);
+		}, 1000);
 	};
 	loader();
 
@@ -327,31 +327,18 @@ AOS.init({
  const fileInfo = document.querySelector('.file-info');
  const realInput = document.getElementById('real-input');
 
- uploadButton.addEventListener('click', (e) => {
-	 realInput.click();
- });
+//  uploadButton.addEventListener('click', (e) => {
+// 	 realInput.click();
+//  });
 
- realInput.addEventListener('change', () => {
-	 const name = realInput.value.split(/\\|\//).pop();
-	 const truncated = name.length > 20
-		 ? name.substr(name.length - 20)
-		 : name;
+//  realInput.addEventListener('change', () => {
+// 	 const name = realInput.value.split(/\\|\//).pop();
+// 	 const truncated = name.length > 20
+// 		 ? name.substr(name.length - 20)
+// 		 : name;
 
-	 fileInfo.innerHTML = truncated;
- });
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 	 fileInfo.innerHTML = truncated;
+//  });
 
 
 
@@ -364,3 +351,53 @@ $('.nav-item a').on('shown.bs.tab', function (e) {
 	window.location.hash = e.target.hash;
 
 });
+
+// This function will be called when user click changing language
+
+function translate(lng, tagAttr){
+    var translate = new Translate();
+    translate.init(tagAttr, lng);
+    translate.process();
+	localStorage.setItem('lang',JSON.stringify(lng))
+    if(lng === 'en'){
+	  $("#enTranslator").css("display","none")
+    } 
+    if(lng === 'ar'){
+      $("#arTranslator").css("display","none")
+    }
+}
+
+$(window).on('load', function() {
+	savedLang = JSON.parse(localStorage.getItem('lang'))
+	if (savedLang) {
+	  translate(savedLang, 'lng-tag');
+	  changeDirection(savedLang)
+
+	}else{
+	 changeDirection(savedLang)
+     translate('en', 'lng-tag');
+	}
+})
+  function changeDirection(lng){
+    if(lng === 'en'){
+	   $('link[href="css/bootstrap/bootstrap-rtl.css"]').attr('href','css/bootstrap/bootstrap.css');
+	    $('link[href="css/style-rtl.css"]').attr('href','css/style.css');
+    } 
+    if(lng === 'ar'){
+	     $('link[href="css/bootstrap/bootstrap.css"]').attr('href','css/bootstrap/bootstrap-rtl.css');
+	     $('link[href="css/style.css"]').attr('href','css/style-rtl.css');
+    }
+}
+
+ $("#enTranslator").on('click',function(){
+    translate('en', 'lng-tag');
+	$("#arTranslator").css("display","block")
+	changeDirection('en')
+
+  });
+  $("#arTranslator").on('click',function(){
+	$("#enTranslator").css("display","block")
+    translate('ar', 'lng-tag');
+	changeDirection('ar')
+  });
+
