@@ -7,5 +7,43 @@
   "media": "Media",
   "contact_us": "Contact Us",
   "menu": "Menu",
-  "banner_txt": "<strong>We</strong> <br />Have A Vision To Build <br />The Future"
+  "banner_txt": "<strong>We</strong> <br />Have A Vision To Build <br />The Future",
+  "who_us": {
+    "title": "Who We Are",
+    "txt1": "We are a leading construction company in Saudi Arabia’s massive industry. Founded in 1974, today, we have organically grown into an entity embarking on large and complex projects securing number 12 amongst the 100 fastest growing companies in Saudi. AlFouzan specializes in general construction, including infrastructure & underground utilities, residential, healthcare facilities, and educational projects.",
+    "txt2": "We have gained local recognition for our high-level professionalism, delivery Excellence, ability in rigorously adapting new technologies and standards, and for achieving superior quality to the full satisfaction of our clients. At AlFouzan, we have earned substantial experience through challenging projects as well as Expertise and insight in diverse fields of construction."
+  },
+  "our_values": {
+    "title": "Our Values",
+    "client_orientation": "Client Orientation and Satisfaction",
+    "orientation_txt": "We are great listeners when it come to what our clients have to say...",
+    "professionalism": "Professionalism and Reliability",
+    "professionalism _txt": "We maintain professionalism across all operational and organizational aspects from conception to finish...",
+    "integrity": "Integrity and transparency",
+    "integrity_txt": "We stand for what is right, and we stand by our principle of keeping our clients out of the dark whether it's an ongoing project development or project scope criteria.",
+    "innovation": "Innovation and Creativity",
+    "innovation_txt": "Every day, the modren world grows in its demand for greatness and uniqueness."
+  },
+  "our_project": {
+    "title": "Our Projects",
+    "description": "Over the past several years, Al Fouzan has built on golden experience in the Saudi construction industry. We have been comprehensively serving expertise in the following sectors;",
+    "type1": "",
+    "type2": "",
+    "type3": "",
+    "type4": ""
+  },
+  "prief_sec": {
+    "title": "Netajco General Construction",
+    "description": "Netajco has been an organization of promise and results. Our financial growth is the testament to our commitment towards our responsibility for the success of our shareholders and stakeholders.",
+    "established_in": "ESTABLISHED IN",
+    "created_at": "2000",
+    "extensive": "Extensive construction experience",
+    "strong_fleets": "Strong Fleets",
+    "revenue_growth": "Revenue Growth"
+  },
+  "partners": {
+    "title": "Our partners",
+    "our_clients": "Our Clients",
+    "our_suppliers": "Our Suppliers"
+  }
 }

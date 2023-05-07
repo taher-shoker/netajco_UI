@@ -311,7 +311,7 @@ h2 {
 
 .fouzan-our-projects_1 h4 {
   font-family: "Cairo", Helvetica, Arial, sans-serif;
-
+  text-align: center;
   color: #ffffff;
   font-size: 16px;
   font-weight: 300;
@@ -335,6 +335,7 @@ h2 {
   display: flex;
   align-items: end;
   margin-bottom: 20px;
+  justify-content: center;
 }
 .pro-content h2 {
   font-family: "Cairo", Helvetica, Arial, sans-serif;
