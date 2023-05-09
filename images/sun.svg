@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>C7406760-165E-4358-B343-241E88E51406</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us" transform="translate(-135.000000, -4055.000000)">
+            <g id="Group-25" transform="translate(0.000000, 3236.000000)">
+                <g id="Group-Copy-4" transform="translate(135.000000, 819.000000)">
+                    <g id="sun">
+                        <circle id="Oval" stroke="#FFFFFF" cx="24" cy="24" r="9"></circle>
+                        <path d="M24,8 L24,0" id="Path" stroke="#ebc03f"></path>
+                        <path d="M24,48 L24,40" id="Path" stroke="#ebc03f"></path>
+                        <path d="M40,24 L48,24" id="Path" stroke="#ebc03f"></path>
+                        <path d="M0,24 L8,24" id="Path" stroke="#ebc03f"></path>
+                        <path d="M35.3,12.7 L41,7" id="Path" stroke="#ebc03f"></path>
+                        <path d="M7,41 L12.7,35.3" id="Path" stroke="#ebc03f"></path>
+                        <path d="M35.3,35.3 L41,41" id="Path" stroke="#ebc03f"></path>
+                        <path d="M7,7 L12.7,12.7" id="Path" stroke="#ebc03f"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

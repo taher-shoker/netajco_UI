@@ -122,6 +122,11 @@ h2 {
 /*.see-more{*/
 /*    position: absolute;*/
 /*}*/
+#core-values {
+  background-image: url(../images/home/projects_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #core-values h3 {
   color: #fff;
 }
@@ -270,7 +275,7 @@ h2 {
   text-transform: none;
 }
 .my-copyright a {
-  color: #e05656;
+  color: #ebc03f;
 }
 .ftco-footer p {
   color: #adadad !important;
@@ -294,7 +299,6 @@ h2 {
 }
 .fouzan-our-projects_1 p {
   font-family: "Cairo", Helvetica, Arial, sans-serif;
-
   opacity: 0.8;
   color: #ffffff;
   font-size: 16px;
@@ -431,7 +435,7 @@ h2 {
   padding-bottom: 16rem;
 }
 .fouzan-our-vission {
-  background-image: url("../images/about/10.jpg");
+  background-image: url("../images/about/10.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -447,7 +451,7 @@ h2 {
   background-size: cover;
 }
 .fouzan-our-mng {
-  background-image: url("../images/about/Picture73.png");
+  background-image: url("../images/about/Picture73.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

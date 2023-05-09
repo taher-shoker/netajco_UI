@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="72px" viewBox="0 0 49 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>B5667ECA-038B-498D-B2F6-DCA1B66A023B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="23.4 0 25.42 6.4 31.8 6.392 26.668 9.908 28.592 16 23.4 12.284 18.208 16 20.132 9.908 15 6.392 21.38 6.4"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us" transform="translate(-134.000000, -3749.000000)">
+            <g id="Group-25" transform="translate(0.000000, 3236.000000)">
+                <g id="Group-Copy-2" transform="translate(135.000000, 527.000000)">
+                    <g id="trophy">
+                        <path d="M37.787234,56.9787234 L9.19148936,56.9787234" id="Path" stroke="#FFFFFF"></path>
+                        <path d="M9.19148936,56.9787234 C19.4042553,56.9787234 22.3659574,43.1914894 22.4680851,42.6808511 L24.5106383,42.6808511 C24.612766,43.1914894 27.5744681,56.9787234 37.787234,56.9787234" id="Path" stroke="#FFFFFF"></path>
+                        <path d="M23.4893617,42.6808511 L23.4893617,42.6808511 C15.1148936,42.6808511 9.80425532,33.387234 8.17021277,23.787234 L6.12765957,11.0212766 L14.4299052,10.5329092 L23.4893617,10 L40.8510638,11.0212766 L38.8085106,23.787234 C37.3787234,33.0808511 31.8638298,42.6808511 23.4893617,42.6808511 Z" id="Path" stroke="#FFFFFF"></path>
+                        <g id="Star">
+                            <use stroke="#292929" stroke-width="8" xlink:href="#path-1"></use>
+                            <use stroke="#ebc03f" stroke-width="1" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M23.4893617,42.6808511 L24.5106383,42.6808511 C36.9702128,42.6808511 46.9787234,32.6723404 46.9787234,20.212766 L39.3191489,20.212766" id="Path" stroke="#FFFFFF"></path>
+                        <path d="M23.4893617,42.6808511 L22.4680851,42.6808511 C10.0085106,42.6808511 0,32.6723404 0,20.212766 L7.65957447,20.212766" id="Path" stroke="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
