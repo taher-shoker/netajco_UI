@@ -10848,17 +10848,21 @@ h5,
   .slider-text h1 {
     font-size: 40px !important;
   }
-  .fouzan-construction-in-nums h2 {
-    width: auto !important;
-  }
-  .fouzan-our-projects_1 p {
-    width: auto !important;
-  }
+  .fouzan-construction-in-nums h2,
+  .fouzan-our-projects_1 p,
+  .fouzan-our-vission p,
+  .bord-of-dir p,
+  .fouzan-about-us p,
   .fouzan-construction-in-nums p {
     width: auto !important;
   }
+
   .fouzan-what-we-deliver {
     background-repeat: repeat-y;
+  }
+
+  .fouzan-our-vission {
+    background-size: contain !important;
   }
 }
 

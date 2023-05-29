@@ -126,15 +126,14 @@
           data-scrollax-parent="true"
         >
           <div
-            class="col-md-12 text-right ftco-animate"
+            class="col-md-12 ftco-animate"
             data-scrollax=" properties: { translateY: '70%' }"
           >
             <h1
               class="mb-4"
               data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-            >
-              رائدة في<br />الصناعة
-            </h1>
+              lng-tag="about_us_content.banner_title"
+            ></h1>
           </div>
         </div>
       </div>
@@ -152,23 +151,11 @@
                   alt=""
                 />
               </div>
-              <div class="px-4-5-l col-md-8 ftco-animate text-right">
+              <div class="px-4-5-l col-md-8 ftco-animate">
                 <img src="images/about/pen.svg" class="mb-3" alt="" />
-                <p>
-                  منذ أن تأسست شركتنا قبل أكثر من أربعة عقود، أخذنا على أنفسنا
-                  عهدًا بالالتزام في كل أعمالنا بالمشاركة الفاعلة في بناء اقتصاد
-                  أقوى وأكثر استدامة لوطننا، من خلال إنشاء مشاريع عمرانية وفق
-                  أعلى المعايير، تعكس الصورة الحضارية للمملكة وشعبها. ونتطلع
-                  اليوم إلى مواصلة رحلة التطور والنماء دون أن ننسى التزاماتنا
-                  وواجباتنا، عبر دخول مرحلة اقتصادية جديدة تتطلب منّا أن نستوعب
-                  أدواتها جيدًا، لكي نشارك بفاعلية في زيادة المحتوى السعودي ودفع
-                  عجلة التنمية الوطنية.
-
-                  <br />
-                </p>
-
-                <h3>محمد بن عبد الله</h3>
-                رئيس مجلس الإدارة
+                <p lng-tag="about_us_content.company_prif"></p>
+                <h3 lng-tag="about_us_content.present_name"></h3>
+                <small lng-tag="about_us_content.present_title"></small>
               </div>
             </div>
           </div>
@@ -180,19 +167,13 @@
       <div class="container vission-con bg-white">
         <div class="row d-flex">
           <div class="col-md-12 col-lg-12">
-            <div class="row py-5-5 text-right">
+            <div class="row py-5-5">
               <div class="col-md-12 ftco-animate">
                 <div class="ftco-animate">
-                  <h2 class="mb-5">رؤيتنا</h2>
+                  <h2 class="mb-5" lng-tag="about_us_content.our_vision"></h2>
                 </div>
                 <div>
-                  <p>
-                    ننحن ملتزمون بأن نصبح المزود الرائد للخدمات والحلول
-                    المتكاملة في قطاع البناء والتشييد في جميع أنحاء المملكة
-                    ومنطقة الخليج العربي. ونؤمن بأن شركتنا كيانٌ عصري طموح على
-                    استعداد دائم لاقتناص الفرص التي تدعم إثراء حضارة المملكة
-                    وحياة شعبها.
-                  </p>
+                  <p lng-tag="about_us_content.vision_txt"></p>
                 </div>
               </div>
             </div>
@@ -205,17 +186,13 @@
       <div class="container mission-con bg-light">
         <div class="row d-flex">
           <div class="col-md-12 col-lg-12">
-            <div class="row py-5-5 text-right">
+            <div class="row py-5-5">
               <div class="col-md-12 ftco-animate">
                 <div class="ftco-animate">
-                  <h2 class="mb-5">رسالتنا</h2>
+                  <h2 class="mb-5" lng-tag="about_us_content.our_mission"></h2>
                 </div>
                 <div>
-                  <p>
-                    تتمثل مهمتنا المستقبلية في تحقيق مجموعة من الأهداف
-                    الاستراتيجية التي صاغها قادة شركتنا لدفعها إلى آفاق رحبة
-                    جديدة.
-                  </p>
+                  <p lng-tag="about_us_content.mission_txt"></p>
                 </div>
               </div>
             </div>
@@ -225,18 +202,19 @@
       <div class="container missions bg-white">
         <div class="row d-flex">
           <div class="col-md-12 col-lg-12">
-            <div class="row text-right justify-content-start py-6">
+            <div class="row justify-content-start py-6">
               <div class="col-md-4 ftco-animate mb-3">
                 <div class="we-box d-flex align-items-end mb-3">
                   <img src="images/saudi_expo.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>السعودية 2030</h3>
-                  <p class="collapse" id="mission1" aria-expanded="false">
-                    المساهمة بشكل مستمر في تلبية احتياجات التنمية الوطنية
-                    وتطلعات المجتمع السعودي.
-                  </p>
-                  <!--<a role="button" class="collapsed" data-toggle="collapse" href="#mission1" aria-expanded="false" aria-controls="mission1"></a>-->
+                  <h3 lng-tag="about_us_content.mission_1.title"></h3>
+                  <p
+                    class="collapse"
+                    id="mission1"
+                    aria-expanded="false"
+                    lng-tag="about_us_content.mission_1.txt"
+                  ></p>
                 </div>
               </div>
               <div class="col-md-4 ftco-animate mb-3">
@@ -245,13 +223,13 @@
                 </div>
 
                 <div class="module">
-                  <h3>المشاريع والمجتمع</h3>
-                  <p class="collapse" id="mission2" aria-expanded="false">
-                    بناء معالم حضارية بارزة ومرافق خدمية متنوعة وبنى تحتية
-                    أساسية ومشاريع سكنية وتجارية، وذلك وفق أعلى معايير الجودة،
-                    بشكل يواكب تطلعات المجتمع السعودي ويعزز الرفاهية فيه.
-                  </p>
-                  <!--<a role="button" class="collapsed" data-toggle="collapse" href="#mission2" aria-expanded="false" aria-controls="mission2"></a>-->
+                  <h3 lng-tag="about_us_content.mission_2.title"></h3>
+                  <p
+                    class="collapse"
+                    id="mission2"
+                    aria-expanded="false"
+                    lng-tag="about_us_content.mission_2.txt"
+                  ></p>
                 </div>
               </div>
               <div class="col-md-4 ftco-animat">
@@ -260,12 +238,13 @@
                 </div>
 
                 <div class="module">
-                  <h3>شركة المستقبل</h3>
-                  <p class="collapse" id="mission3" aria-expanded="false">
-                    تبنّي أحدث التقنيات الهندسية والأساليب في البناء وإدارة
-                    المشاريع التي تضمن الجودة العالية والكفاءة التشغيلية.
-                  </p>
-                  <!--<a role="button" class="collapsed" data-toggle="collapse" href="#mission3" aria-expanded="false" aria-controls="mission3"></a>-->
+                  <h3 lng-tag="about_us_content.mission_3.title"></h3>
+                  <p
+                    class="collapse"
+                    id="mission3"
+                    aria-expanded="false"
+                    lng-tag="about_us_content.mission_3.txt"
+                  ></p>
                 </div>
               </div>
               <div class="col-md-4 ftco-animate">
@@ -274,13 +253,13 @@
                 </div>
 
                 <div class="module">
-                  <h3>العملاء والشركاء</h3>
-                  <p class="collapse" id="mission4" aria-expanded="false">
-                    تعزيز علاقاتنا مع شركائنا وعملائنا والتي تقوم على الثقة
-                    والشفافية والنزاهة، وذلك من خلال تقديم أفضل الحلول والخدمات
-                    واحترام الوعود والالتزامات.
-                  </p>
-                  <!--<a role="button" class="collapsed" data-toggle="collapse" href="#mission4" aria-expanded="false" aria-controls="mission4"></a>-->
+                  <h3 lng-tag="about_us_content.mission_4.title"></h3>
+                  <p
+                    class="collapse"
+                    id="mission4"
+                    aria-expanded="false"
+                    lng-tag="about_us_content.mission_4.txt"
+                  ></p>
                 </div>
               </div>
               <div class="col-md-4 ftco-animate">
@@ -289,13 +268,13 @@
                 </div>
 
                 <div class="module">
-                  <h3>رأس المال البشري</h3>
-                  <p class="collapse" id="mission5" aria-expanded="false">
-                    الاستثمار في التوظيف عبر استقطاب أفضل الكفاءات والحفاظ عليها
-                    عبر التدريب عالي المستوى، إضافةً إلى الدعم المعنوي والتقدير
-                    والتحفيز باستمرار.
-                  </p>
-                  <!--<a role="button" class="collapsed" data-toggle="collapse" href="#mission5" aria-expanded="false" aria-controls="mission5"></a>-->
+                  <h3 lng-tag="about_us_content.mission_5.title"></h3>
+                  <p
+                    class="collapse"
+                    id="mission5"
+                    aria-expanded="false"
+                    lng-tag="about_us_content.mission_5.txt"
+                  ></p>
                 </div>
               </div>
               <div class="col-md-4 ftco-animate">
@@ -304,12 +283,13 @@
                 </div>
 
                 <div class="module">
-                  <h3>البيئة والسلامة</h3>
-                  <p class="collapse" id="mission6" aria-expanded="false">
-                    تطبيق أعلى معايير وإجراءات الأمن والسلامة، والمحافظة على
-                    البيئة التي نمارس أعمالنا فيها.
-                  </p>
-                  <!--<a role="button" class="collapsed" data-toggle="collapse" href="#mission6" aria-expanded="false" aria-controls="mission6"></a>-->
+                  <h3 lng-tag="about_us_content.mission_6.title"></h3>
+                  <p
+                    class="collapse"
+                    id="mission6"
+                    aria-expanded="false"
+                    lng-tag="about_us_content.mission_6.txt"
+                  ></p>
                 </div>
               </div>
             </div>
@@ -325,25 +305,25 @@
       <div class="container">
         <div class="row d-flex">
           <div class="col-md-12 col-lg-12">
-            <div class="row justify-content-start text-right py-6">
+            <div class="row justify-content-start py-6">
               <div class="col-md-12 ftco-animate">
-                <h2 class="mb-5 text-white">قيمنا الأساسية</h2>
+                <h2
+                  class="mb-5 text-white"
+                  lng-tag="about_us_content.our_values_title"
+                ></h2>
               </div>
               <div class="col-md-6 ftco-animate pt-5">
                 <div class="we-box d-flex align-items-end mb-3">
                   <img src="images/heart.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>رضا العملاء</h3>
+                  <h3 lng-tag="about_us_content.value_1.title"></h3>
                   <p
                     class="collapse text-white"
                     id="core1"
                     aria-expanded="false"
-                  >
-                    نسعى لتلبية رغبات عملائنا وحاجاتهم وتطلّعاتهم العملية
-                    والمستقبلية، ونولّي اهتمامًا كبيرًا بطموحاتهم، كما نعمل
-                    دائمًا بشكل محكم و وثيق معهم من أجل تجسيدها على أرض الواقع.
-                  </p>
+                    lng-tag="about_us_content.value_1.txt"
+                  ></p>
                   <!--						  <a role="button" class="collapsed" data-toggle="collapse" href="#core1" aria-expanded="false" aria-controls="core1"></a>-->
                 </div>
               </div>
@@ -352,16 +332,13 @@
                   <img src="images/briefcase.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>الاحترافية والموثوقية</h3>
+                  <h3 lng-tag="about_us_content.value_2.title"></h3>
                   <p
                     class="collapse text-white"
                     id="core2"
                     aria-expanded="false"
-                  >
-                    نحافظ على الاحترافية في أداء جميع المهام العملية، من لحظة
-                    صدور الفكرة المعنيّة حتى تتم عملية التنفيذ بشكل كامل، ولذلك
-                    حصلنا على ثقة عملائنا واستمراريتهم.
-                  </p>
+                    lng-tag="about_us_content.value_2.txt"
+                  ></p>
                   <!--						  <a role="button" class="collapsed" data-toggle="collapse" href="#core2" aria-expanded="false" aria-controls="core2"></a>-->
                 </div>
               </div>
@@ -370,16 +347,13 @@
                   <img src="images/trophy.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>مصداقية تستند إلى الأداء</h3>
+                  <h3 lng-tag="about_us_content.value_3.title"></h3>
                   <p
                     class="collapse text-white"
                     id="core3"
                     aria-expanded="false"
-                  >
-                    كل عمل لدينا نقوم به وفق إجراءات واضحة ومعايير دقيقة، وكل
-                    وعد نقطعه على أنفسنا نتفانى من أجل الوفاء به.
-                  </p>
-                  <!--						  <a role="button" class="collapsed" data-toggle="collapse" href="#core3" aria-expanded="false" aria-controls="core3"></a>-->
+                    lng-tag="about_us_content.value_3.txt"
+                  ></p>
                 </div>
               </div>
               <div class="col-md-6 ftco-animate pt-5">
@@ -387,18 +361,13 @@
                   <img src="images/microscope.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>النزاهة والشفافية</h3>
+                  <h3 lng-tag="about_us_content.value_4.title"></h3>
                   <p
                     class="collapse text-white"
                     id="core4"
                     aria-expanded="false"
-                  >
-                    يرتكز عملنا على الصواب في جميع الأحوال ونلتزم بالقوانين
-                    والأنظمة كما نحترم التواصل مع الجميع، ومع عملائنا على وجه
-                    الخصوص، ونبقيهم على اطّلاع كامل بكل مجريات المشروع، ونتعهد
-                    بالنصح والصدق والوضوح معهم ومع كل أصحاب المصلحة في مجال
-                    عملنا.
-                  </p>
+                    lng-tag="about_us_content.value_4.txt"
+                  ></p>
                   <!--						  <a role="button" class="collapsed" data-toggle="collapse" href="#core4" aria-expanded="false" aria-controls="core4"></a>-->
                 </div>
               </div>
@@ -407,16 +376,13 @@
                   <img src="images/sun.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>الابتكار والإبداع</h3>
+                  <h3 lng-tag="about_us_content.value_5.title"></h3>
                   <p
                     class="collapse text-white"
                     id="core5"
                     aria-expanded="false"
-                  >
-                    نحرص دائمًا على الوصول إلى آخر ما حقّقته الصناعة من تقنيات
-                    وابتكارات في مجالنا، ونسارع إلى تعلّم وتبني ما يستجد من طرق
-                    وأساليب تعزّز تفوقنا باستمرار وثبات.
-                  </p>
+                    lng-tag="about_us_content.value_5.txt"
+                  ></p>
                   <!--						  <a role="button" class="collapsed" data-toggle="collapse" href="#core5" aria-expanded="false" aria-controls="core5"></a>-->
                 </div>
               </div>
@@ -425,13 +391,13 @@
                   <img src="images/pen.svg" alt="" />
                 </div>
                 <div class="module">
-                  <h3>الجودة والقيمة</h3>
-                  <p class="collapse text-white" id="" aria-expanded="false">
-                    نسعى باستمرارية دائمة إلى تقديم قيمة حقيقية إلى عملائنا بغض
-                    النظر عن حجم مشاريعهم، هذه القيمة تتجلّى في ملائمة التكاليف
-                    وجودة الأفكار والمواد وتميز الإدارة والتنفيذ.
-                  </p>
-                  <!--							  <a role="button" class="collapsed" data-toggle="collapse" href="#core6" aria-expanded="false" aria-controls="core6"></a>-->
+                  <h3 lng-tag="about_us_content.value_6.title"></h3>
+                  <p
+                    class="collapse text-white"
+                    id=""
+                    aria-expanded="false"
+                    lng-tag="about_us_content.value_6.txt"
+                  ></p>
                 </div>
               </div>
             </div>
@@ -445,65 +411,46 @@
         <div class="row d-flex">
           <div class="col-md-12 col-lg-12">
             <div class="row py-6">
-              <div class="col-md-12 mb-5 ftco-animate text-right">
+              <div class="col-md-12 mb-5 ftco-animate">
                 <img
                   src="images/about/chair.svg"
                   class="img-fluid mb-3"
                   alt=""
                 />
-                <h2 class="mb-3">مجلس الإدارة</h2>
-                <p>
-                  يتمتع مجلس الإدارة بالخبرات العريضة والعلاقات الواسعة في السوق
-                  السعودية، وتكمن مهمته الأساسية في وضع الاستراتيجيات والسياسات
-                  والخطط والإجراءات التي من شأنها تحقيق مصلحة الشركة وتعظيم حقوق
-                  مساهميهما. كما يتمتع المجلس برؤية ثاقبة مكنته من رسم
-                  استراتيجية الشركة طويلة المدى التي قادتها على مدى سنوات طويلة
-                  للتقدم والنجاح في مجال البناء وإدارة المشاريع في المملكة
-                  العربية السعودية.
-                </p>
+                <h2 class="mb-3" lng-tag="about_us_content.cheif_title"></h2>
+                <p lng-tag="about_us_content.cheif_des"></p>
               </div>
-              <div class="col-md-3 text-center ftco-animate">
+              <div class="col-md-4 text-center ftco-animate">
                 <div class="mb-lg-5">
                   <img src="images/mohammad_a.png" alt="" />
                 </div>
                 <div>
-                  <h4>محمد عبدالله</h4>
+                  <h4 lng-tag="about_us_content.present_name"></h4>
                 </div>
                 <div class="designation-bg">
-                  <h5>رئيس مجلس الإدارة</h5>
+                  <h5 lng-tag="about_us_content.present_title"></h5>
                 </div>
               </div>
-              <div class="col-md-3 text-center ftco-animate">
+              <div class="col-md-4 text-center ftco-animate">
                 <div class="mb-5">
                   <img src="images/ahmad.png" alt="" />
                 </div>
                 <div>
-                  <h4>أحمد عبدالله</h4>
+                  <h4 lng-tag="about_us_content.manage_1.name"></h4>
                 </div>
                 <div class="designation-bg">
-                  <h5>نائب رئيس مجلس الإدارة</h5>
+                  <h5 lng-tag="about_us_content.manage_1.title"></h5>
                 </div>
               </div>
-              <div class="col-md-3 text-center ftco-animate">
+              <div class="col-md-4 text-center ftco-animate">
                 <div class="mb-5">
                   <img src="images/tariq.png" alt="" />
                 </div>
                 <div>
-                  <h4>طارق محمد</h4>
+                  <h4 lng-tag="about_us_content.manage_2.name"></h4>
                 </div>
                 <div class="designation-bg">
-                  <h5>العضو المنتدب والرئيس التنفيذي</h5>
-                </div>
-              </div>
-              <div class="col-md-3 text-center ftco-animate">
-                <div class="mb-5">
-                  <img src="images/abdelaziz.png" alt="" />
-                </div>
-                <div>
-                  <h4>عبدالعزيز أحمد</h4>
-                </div>
-                <div class="designation-bg">
-                  <h5>عضو مجلس الإدارة</h5>
+                  <h5 lng-tag="about_us_content.manage_2.title"></h5>
                 </div>
               </div>
             </div>
@@ -517,12 +464,12 @@
         <div class="row d-flex">
           <div class="col-md-12 col-lg-12">
             <div class="row py-5-5">
-              <div class="col-md-12 ftco-animate text-right">
+              <div class="col-md-12 ftco-animate ">
                 <div class="ftco-animate">
                   <h2 class="mb-5 text-white">فريق الإدارة</h2>
                 </div>
                 <div>
-                  <p class="text-white text-right">
+                  <p class="text-white ">
                     تمتلك الشركة فريقًا تنفيذيًا ذو كفاءة عالية، يمتلك المعرفة
                     والدراية ويتمتع برصيد كبير من الخبرة في مختلف المجالات،
                     كالهندسة والقانون والإدارة المالية وإدارة المخاطر والتدقيق

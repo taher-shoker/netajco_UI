@@ -21,11 +21,21 @@ function Translate() {
             if (key != null) {
               if (key.includes(".")) {
                 var arrStr = key.split(".");
-                var parent = arrStr[0];
-                var child = arrStr[1];
-                var parentObj = LngObject[parent];
-                var childTxt = parentObj[child];
-                elem.innerHTML = childTxt;
+                if (arrStr.length === 3) {
+                  var grandParent = arrStr[0];
+                  var parent = arrStr[1];
+                  var child = arrStr[2];
+                  var grandParentObj = LngObject[grandParent];
+                  var parentObj = grandParentObj[parent];
+                  var childTxt = parentObj[child];
+                  elem.innerHTML = childTxt;
+                } else {
+                  var parent = arrStr[0];
+                  var child = arrStr[1];
+                  var parentObj = LngObject[parent];
+                  var childTxt = parentObj[child];
+                  elem.innerHTML = childTxt;
+                }
               } else {
                 elem.innerHTML = LngObject[key];
               }

@@ -10,8 +10,8 @@
   "banner_txt": "<strong>We</strong> <br />Have A Vision To Build <br />The Future",
   "who_us": {
     "title": "Who We Are",
-    "txt1": "We are a leading construction company in Saudi Arabia’s massive industry. Founded in 1974, today, we have organically grown into an entity embarking on large and complex projects securing number 12 amongst the 100 fastest growing companies in Saudi. AlFouzan specializes in general construction, including infrastructure & underground utilities, residential, healthcare facilities, and educational projects.",
-    "txt2": "We have gained local recognition for our high-level professionalism, delivery Excellence, ability in rigorously adapting new technologies and standards, and for achieving superior quality to the full satisfaction of our clients. At AlFouzan, we have earned substantial experience through challenging projects as well as Expertise and insight in diverse fields of construction."
+    "txt1": "We are a leading construction company in Saudi Arabia’s massive industry. Founded in 1974, today, we have organically grown into an entity embarking on large and complex projects securing number 12 amongst the 100 fastest growing companies in Saudi. Netjco specializes in general construction, including infrastructure & underground utilities, residential, healthcare facilities, and educational projects.",
+    "txt2": "We have gained local recognition for our high-level professionalism, delivery Excellence, ability in rigorously adapting new technologies and standards, and for achieving superior quality to the full satisfaction of our clients. At Netjco, we have earned substantial experience through challenging projects as well as Expertise and insight in diverse fields of construction."
   },
   "our_values": {
     "title": "Our Values",
@@ -26,7 +26,7 @@
   },
   "our_project": {
     "title": "Our Projects",
-    "description": "Over the past several years, Al Fouzan has built on golden experience in the Saudi construction industry. We have been comprehensively serving expertise in the following sectors;",
+    "description": "Over the past several years, Netjco has built on golden experience in the Saudi construction industry. We have been comprehensively serving expertise in the following sectors;",
     "type1": "",
     "type2": "",
     "type3": "",
@@ -45,5 +45,102 @@
     "title": "Our partners",
     "our_clients": "Our Clients",
     "our_suppliers": "Our Suppliers"
+  },
+  "about_us_content": {
+    "banner_title": "Industry-Leading <br> Construction Company",
+    "company_prif": "“Ever since our establishment more than four decades ago, AL Netajco General Construction has been committed to playing a vital role in building a stronger and more sustainable economy that benefits the Saudi society.We look forward into embarking onto a new period of organizational improvement with increased Saudi local content and development.”",
+    "present_name": "ISSA ALOLAYANI",
+    "present_title": "Chairman",
+    "our_vision": "Our Vision",
+    "vision_txt": "We are committed to becoming the leading provider of integrated solutions services in the construction industry across the kingdom and the surrounding regions. We envision ourselves as a steadfast modern entity ready to take on challenging opportunities to reshape Saudi’s metropolitan and the lives of its people.",
+    "our_mission": "Our mission",
+    "mission_txt": "Our mission outlook is a series of strategic goals formulated by our leaders to propel Netajco General Construction to new and unparalleled heights.",
+    "mission_1": {
+      "title": "Saudi 2030",
+      "txt": "To continuously contribute to the growth and development needs of Saudi Arabia project & society."
+    },
+    "mission_2": {
+      "title": "Projects & Society",
+      "txt": "To create iconic landmark projects, commercial properties and infrastructure and residential developments while promoting unmatchable quality, value and well-being of the society."
+    },
+    "mission_3": {
+      "title": "A Company of the Future",
+      "txt": "To incorporate and promote up-to-date and universal technologies, techniques and practices that ensures high quality, cost effective and practical architectural excellence."
+    },
+    "mission_4": {
+      "title": "Clientele and Partners",
+      "txt": "To nurture and strengthen our business relationships based on trust, transparency and integrity through ideal partnership solutions and quality support."
+    },
+    "mission_5": {
+      "title": "Human Capital",
+      "txt": "To invest in the recruitment and training of the highest caliber of skilled local engineers, foreman etc. through thorough selection processes and unremitting training & development."
+    },
+    "mission_6": {
+      "title": "Environment and Safety",
+      "txt": "To comply and exercise the highest standards of safety and environmental welfare."
+    },
+    "our_values_title": "Our Core Values",
+    "value_1": {
+      "title": "Client Orientation and Satisfaction",
+      "txt": "We are great listeners when it comes to what our clients have to say. Before any of our protocol commences, we pay close attention to what our client story is and what their dreams are. The more we listen, the more we are able to manifest their vision."
+    },
+    "value_2": {
+      "title": "Professionalism and Reliability",
+      "txt": "We maintain professionalism across all operational and organizational aspects from conception to finish. It is our resolute on this aspect that ensures our clients that we are to be trusted."
+    },
+    "value_3": {
+      "title": "Performance-based credibility",
+      "txt": "We are a breed of perfectionists when it comes to our development processes. Every step is taken with thorough scrutiny before its execution. At Netjco, rarely is a promise undelivered."
+    },
+    "value_4": {
+      "title": "Integrity and transparency",
+      "txt": "We stand for what is right, and we stand by our principle of keeping our clients out of the dark whether it’s an ongoing project development or project scope criteria. Honesty is what lubricates the cogs of our collaborative teams, stakeholders and clients."
+    },
+    "value_5": {
+      "title": "Innovation and creativity",
+      "txt": "Every day, the modern world grows in its demand for greatness and uniqueness. Whether it’s in our construction blueprints, or in our management approach, we make sure our professionals think out of the box while being up-to-date on architectural and construction solutions."
+    },
+    "value_6": {
+      "title": "Quality & Value",
+      "txt": "We step in the shoes of our end user and the client. It is only when one creates from the heart that it becomes of great value. We put our heart where our expertise is to bring the highest level of quality in our outcomes."
+    },
+    "cheif_title": "Board of Directors",
+    "cheif_des": "Our organization has a rich heritage of leadership from the most influential and experienced personalities. Part of Netjco’s success over the years is the organization’s vision board drawn by our board of directors. Their sight, guidance and leadership is what makes Netjco General Construction one of the leaders in the landscape of construction and development in the Saudi Arabia.",
+    "manage_1": {
+      "name": "IBRAHIM ISSA ALOLAYANI",
+      "title": "Voice Chairman "
+    },
+    "manage_2": {
+      "name": "AHMED TAHER",
+      "title": " C.E.O"
+    }
+  },
+  "projects": {
+    "main_title": "High-Level<br>Professionalism"
+  },
+  "contact": {
+    "main_title": "Contact Us",
+    "title": "Contact Us",
+    "txt": "We pay close attention to what our client story is and what their dreams are. The more we listen, the more we are able to manifest their vision.",
+    "address": "ADDRESS",
+    "address_txt": "",
+    "phone": "Phone",
+    "phone_num": "",
+    "email": "Email",
+    "email_fomat": "",
+    "send_us": "Send us a message",
+    "name": "NAME",
+    "subject": "SUBJECT",
+    "subjectPlaceholder": "Write your subject here...",
+    "message": "MESSAGE",
+    "messagePlaceholder": "Write your message here...",
+    "btn_submit": "SEND YOUR MESSAGE"
+  },
+  "services_content": {
+    "main_title": "The best service <br> of the highest quality",
+    "title": "The most important characteristic of Netajco is the level of service and quality",
+    "title_txt": "Our significant presence in the Kingdom ensure we are able to deliver our services with a reputation for providing effective delivery of complex and mega projects.",
+    "get_Aquote": "Get A Quote",
+    "quote_txt": ""
   }
 }

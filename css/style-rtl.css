@@ -969,3 +969,86 @@ input[type="file"] {
 ::-webkit-scrollbar-thumb:hover {
   background: #ebc03f;
 }
+.get-started .contenty {
+  padding: 30px 0;
+}
+.get-started .contenty h3 {
+  font-size: 36px;
+  color: #292929;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.get-started .contenty h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ebc03f;
+  left: 0;
+  bottom: 0;
+}
+
+.get-started .contenty p {
+  font-size: 14px;
+}
+.get-started .php-email-form {
+  background: #fff;
+  padding: 30px;
+  height: 100%;
+}
+.get-started .php-email-form h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.get-started .php-email-form p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.get-started .php-email-form input,
+.get-started .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.get-started .php-email-form input {
+  padding: 10px 15px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.get-started .php-email-form button[type="submit"] {
+  background: #ebc03f;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.get-started label {
+  margin-bottom: 8px;
+  padding-top: 10px;
+}
